@@ -1,8 +1,14 @@
 import Cabecalho from "components/Cabecalho";
+import Rodape from "components/Rodape";
 import React from "react";
 
 function Inicio() {
-  return <Cabecalho />;
+  return (
+    <>
+      <Cabecalho />
+      <Rodape />
+    </>
+  );
 }
 
 export default Inicio;
