@@ -1,18 +1,15 @@
-import { Banner, Card, Titulo } from "components";
 import styles from "./Favoritos.module.css";
 import React from "react";
+import Template from "pages/template";
 
 function Favoritos() {
   return (
-    <>
-      <Banner imagem="favoritos" />
-      <Titulo>
-        <h1>Meus Favoritos</h1>
-      </Titulo>
-      <section className={styles.container}>
-        <Card id="i1" capa="asda" titulo="asdas" />
-      </section>
-    </>
+    <Template
+      imageText="favoritos"
+      title="Meus Favoritos"
+      videos={null}
+      styles={styles}
+    />
   );
 }
 
